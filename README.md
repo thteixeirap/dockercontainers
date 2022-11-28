@@ -6,7 +6,7 @@
     docker --version
 ```
 
-Assim, se já instalado, verificamos a versão do Docker na máquina.
+> Assim, se já instalado, verificamos a versão do Docker na máquina.
 
 1 - Verificado que a máquina possui o Docker instalado, iremos criar uma imagem para a criação do container. Iremos utillizar o arquivo Dockerfile (disponibilizado no repositório) para estarmos criando um container que no exemplo irá disponibilizar um servidor web, o nginx.
 
