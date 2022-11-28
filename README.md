@@ -1,4 +1,4 @@
-Container Docker
+# Container Docker
 
 - Durante a execução dos comandos a seguir, é necessário já termos o docker instalado na máquina. Para verificar se temos o Docker instalado podemos usar o seguinte comando.
 
@@ -59,7 +59,7 @@ docker inspect -f ’ {{. State . Status }} ’ mycontainer
 > Neste exemplo foi craido um container usando a imagem oficial do Docker de [httpd](https://hub.docker.com/_/httpd). Como
 usamos o comando docker create para iniciar o container, o status após o comando é mostrado como created.
 
-## Running:
+### Running:
 
 ```sh
   docker create -- name mycontainer httpd
