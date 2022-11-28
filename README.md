@@ -42,7 +42,7 @@ atual de todos os containers :
 ```sh
   docker ps
 ```
-- Na saída exibe todos os containers presentes na máquina com seus STATUS (quinta coluna) e vários outros detallhes 
+> Na saída exibe todos os containers presentes na máquina com seus STATUS (quinta coluna) e vários outros detallhes 
 
 ### Created
 
@@ -86,7 +86,7 @@ ele sai.
 ```sh
   docker run - itd -- restart = always -- name mycontainer centos :7 sleep 5
 ```
- - O comando acima executará o mycontainer e executará o comando sleep 5 e sairá. Porém,
+> O comando acima executará o mycontainer e executará o comando sleep 5 e sairá. Porém,
 como utilizamos a política de reinicialização para esse container, ele reiniciará automatica-
 mente o contêiner após sua saída. Após 5 segundos, o estado do container será restarting.
 
